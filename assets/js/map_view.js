@@ -1,20 +1,3 @@
-
-// var positions = [{position : {lat: 23.146304, lng: -82.359272}},{position : {lat: 23.139570, lng: -82.353219}}, {position : {lat: 23.141358, lng: -82.356071}},{position : {lat: 40.442820, lng: -79.943047}}];
-// var contents = [
-//      {content:  
-//         " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>",
-//       maxWidth: 10000}, 
-//      {content:  
-//         " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>",
-//       maxWidth: 10000},
-//      {content:  
-//         " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>",
-//       maxWidth: 10000 },
-//       {content:  
-//         " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>",
-//       maxWidth: 10000 }
-//       ]
-
 $(document).ready(function() {
   var store = JSON.parse(localStorage.getItem("store"));
   if (store === null) {
@@ -29,14 +12,14 @@ $(document).ready(function() {
   $(store[1]).hide();
 
   var locations = [
-    [ " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>", 
+    [ " <div class=\"card h-100\"><a href=\"russian.html\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\"></p></div></div>", 
       23.146304,-82.359272],
-    [ " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>", 
+    [ " <div class=\"card h-100\"><a href=\"sea.html\"><img class=\"card-img-top\" src=\"assets/img/02.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"sea.html\">Sea Food</a></h4><p class=\"card-text\"></p></div></div>", 
       23.139570, -82.353219],
-    [ " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>",
-      23.141358, -82.356071],
-    [ " <div class=\"card h-100\"><a href=\"#\"><img class=\"card-img-top\" src=\"assets/img/01.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"russian.html\">Russian Food</a></h4><p class=\"card-text\">Lorem ip.</p></div></div>", 
+    [ " <div class=\"card h-100\"><a href=\"home.html\"><img class=\"card-img-top\" src=\"assets/img/04.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"home.html\">Home Food</a></h4><p class=\"card-text\"></p></div></div>", 
       40.442820, -79.943047],
+    [ " <div class=\"card h-100\"><a href=\"bar.html\"><img class=\"card-img-top\" src=\"assets/img/03.jpeg\" alt=\"\"></a><div class=\"card-body\"><h4 class=\"card-title\"><a href=\"bar.html\">Bar Food</a></h4><p class=\"card-text\"></p></div></div>",
+      23.141358, -82.356071]
     ];
 
 

@@ -1,4 +1,38 @@
 #map {
-height: 600px;
+height: 700px;
 width: 100%;
 }
+
+#wrapper { 
+position: relative; 
+}
+
+#float {
+position: absolute;
+top: 1000px; 
+left: 1000px; 
+z-index: 99; 
+}
+/*
+for index
+*/
+#first {
+    background: url('../img/background.png');
+    opacity: 0.7;
+    background-size: cover;
+    height: 600px;
+    margin-top: 80px;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+#first h1 {
+    padding-top: 20%;
+    color: white;
+}
+
+#first a {
+    text-decoration: underline;
+}
+
+
